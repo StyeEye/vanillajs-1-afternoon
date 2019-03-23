@@ -5,4 +5,6 @@ function setCard() {
     const target = document.getElementById(grabber.value);
 
     console.log(target);
+
+    target.style.color = styler.value;
 }
