@@ -8,3 +8,10 @@ function setCard() {
 
     target.style.color = styler.value;
 }
+
+function resetAll() {
+    for (let i = 1; i <= 4; ++i) {
+        const card = document.getElementById(`card${i}`);
+        card.style.color = "grey";
+    }
+}
